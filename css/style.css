@@ -459,12 +459,6 @@ body{
     overflow: hidden;
     border-radius: 1em;
     display: grid;
-    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform-origin: left;
-}
-
-.service-section>.container>.service-content>.service-card:hover{
-    transform: rotate(-2deg);
 }
 
 .service-section>.container>.service-content>.service-card>.service-card-img{
@@ -527,6 +521,7 @@ body{
 /* contact  */
 .contact-section{
     padding-top: var(--top-padding);
+    overflow: hidden;
 }
 
 .contact-section>.container{
